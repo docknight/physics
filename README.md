@@ -16,3 +16,11 @@ Cue stick can be rotated using the mouse. When "S" key on the keyboard is presse
 ![](screenshots/Simulator.jpg)
 
 Physics Playground is a simple tool where simulated 2D and 3D entities (planes, boxes, spheres) can be defined interactively. After their definition, the simulation can be run and interactions between entities can be observed in real-time.
+
+## Build environment
+The following is required on the build machine:
+* Windows 8.1 SDK (http://download.microsoft.com/download/B/0/C/B0C80BA3-8AD6-4958-810B-6882485230B5/standalonesdk/sdksetup.exe)
+* DirectX SDK (https://www.microsoft.com/en-us/download/details.aspx?id=6812)
+* Windows Universal CRT SDK (can be installed through Visual Studio Installer)
+
+After installing the DirectX SDK, make sure that "$(DXSDK_DIR)Include" has been added to the VC++ Include Directories for both projects.
